@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local model weights and downloaded caches
+models/
+.cache/
+
+# Runtime logs and generated workbooks
+*.log
+duplication_results.xlsx
+normalized_input.xlsx
+.*.tmp.xlsx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
